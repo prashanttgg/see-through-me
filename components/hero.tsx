@@ -14,6 +14,7 @@ export function Hero() {
         <h1 className="text-balance text-5xl font-semibold tracking-tight sm:text-6xl">
           See Through Me
         </h1>
+        <p className="-mt-3 text-base font-medium text-primary">Now on GitHub</p>
         <p className="max-w-lg text-pretty text-lg leading-relaxed text-muted-foreground">
           Ask for itineraries, locations, travel queries, travel packages, and links for travel gear &amp; equipment.
         </p>
