@@ -1,4 +1,4 @@
-import { ClipboardList, LogIn } from 'lucide-react'
+import { CalendarDays, LogIn } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/button'
 import { eventLinks, linkOrFallback } from '@/lib/event'
 import { cn } from '@/lib/utils'
@@ -13,9 +13,9 @@ export function JoinSection() {
         </div>
         <div className="grid gap-4 md:grid-cols-2">
           <div className="flex flex-col gap-5 rounded-2xl border bg-background p-6">
-            <ClipboardList className="size-6 text-primary" aria-hidden="true" />
+            <CalendarDays className="size-6 text-primary" aria-hidden="true" />
             <div className="flex flex-col gap-1">
-              <h3 className="text-xl font-semibold">Fill the Google Form</h3>
+              <h3 className="text-xl font-semibold">Start Planning Now</h3>
 
             </div>
             <a

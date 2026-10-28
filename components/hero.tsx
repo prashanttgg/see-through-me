@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ArrowRight } from 'lucide-react'
+import { CalendarDays } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/button'
 import { eventLinks, linkOrFallback } from '@/lib/event'
 import { cn } from '@/lib/utils'
@@ -24,8 +24,8 @@ export function Hero() {
             rel={eventLinks.googleForm ? 'noopener noreferrer' : undefined}
             className={cn(buttonVariants({ size: 'lg' }), 'h-11 px-5 text-base')}
           >
-            Fill the Google Form
-            <ArrowRight data-icon="inline-end" aria-hidden="true" />
+            <CalendarDays data-icon="inline-start" aria-hidden="true" />
+            Start Planning Now
           </a>
           <a
             href={linkOrFallback(eventLinks.login)}
